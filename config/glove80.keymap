@@ -55,6 +55,17 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <34 40>;
+            layers = <0>;
+            timeout-ms = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
